@@ -9,6 +9,7 @@
 <title>ROG Consultancies</title>
 
 <link rel="icon" type="image/png" href="favicon.png">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 <style>
 
@@ -24,6 +25,20 @@ font-family: 'Segoe UI', sans-serif;
 color:#333;
 background:#0f172a;
 overflow-x:hidden;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:14px 20px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+z-index:1000;
 }
 
 /* Animated gradient background */
@@ -275,6 +290,61 @@ productivity and scalability.
 <p>Custom applications and enterprise systems.</p>
 </div>
 
+<section id="stats">
+
+<h2>Our Impact</h2>
+
+<div class="services">
+
+<div class="card" data-aos="fade-up">
+<h3>20+</h3>
+<p>Projects Delivered</p>
+</div>
+
+<div class="card" data-aos="fade-up">
+<h3>10+</h3>
+<p>Organizations Supported</p>
+</div>
+
+<div class="card" data-aos="fade-up">
+<h3>5+</h3>
+<p>Industries Served</p>
+</div>
+
+<div class="card" data-aos="fade-up">
+<h3>100%</h3>
+<p>Client Satisfaction</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="clients">
+
+<h2>Our Clients & Partners</h2>
+
+<p>
+We work with startups, organizations and businesses
+looking to adopt technology and modern digital solutions.
+</p>
+
+<br>
+
+<div style="display:flex;justify-content:center;gap:40px;flex-wrap:wrap;">
+
+<div class="card">Startup Companies</div>
+
+<div class="card">SMEs</div>
+
+<div class="card">NGOs</div>
+
+<div class="card">Enterprise Businesses</div>
+
+</div>
+
+</section>
+
 <div class="card">
 <h3>Digital Transformation</h3>
 <p>Helping organizations modernize operations.</p>
@@ -289,6 +359,19 @@ productivity and scalability.
 
 </section>
 
+<section id="cta">
+
+<h2>Ready to Transform Your Business?</h2>
+
+<p>
+Let's discuss how technology can help your organization grow.
+</p>
+
+<br>
+
+<a class="btn" href="#contact">Request Consultation</a>
+
+</section>
 
 <section id="contact">
 
@@ -380,6 +463,19 @@ animate();
 
 </script>
 
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+</script>
+
+<a href="https://wa.me/254739673756" class="whatsapp" target="_blank">
+Chat on WhatsApp
+</a>
+  
 </body>
 
 </html>
